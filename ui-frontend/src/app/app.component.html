@@ -1,0 +1,28 @@
+<p>
+  <mat-toolbar color="primary">
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <span>Hello world</span>
+    <span class="example-spacer"></span>
+    <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+      <mat-icon>favorite</mat-icon>
+    </button>
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+      <mat-icon>share</mat-icon>
+    </button>
+  </mat-toolbar>
+</p>
+<mat-drawer-container class="example-container">
+  <mat-drawer class="sidenavContainer" mode="side" opened>
+    <mat-list>
+    <mat-list-item><mat-icon>search</mat-icon></mat-list-item>
+    <mat-list-item><mat-icon>home</mat-icon></mat-list-item>
+    <mat-list-item><mat-icon>settings</mat-icon></mat-list-item>
+    <mat-list-item><mat-icon><span class="material-icons-outlined">
+      person_add_alt
+      </span></mat-icon></mat-list-item>
+    </mat-list>
+  </mat-drawer>
+  <mat-drawer-content class="mainContent"></mat-drawer-content>
+</mat-drawer-container>

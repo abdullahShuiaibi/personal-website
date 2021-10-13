@@ -1,0 +1,17 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+.example-container{
+    height: 100%;
+}
+.sidenavContainer{
+    background-color: lightblue;
+    top:0px;
+}
+.mainContent{
+    background-color: lightgreen;
+}
+
+mat-list-item:hover{
+    background-color: white;
+}
